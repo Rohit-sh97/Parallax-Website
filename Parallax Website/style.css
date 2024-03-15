@@ -1,0 +1,85 @@
+html,
+body{
+    height: 100%;
+    margin: 0px;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    line-height: 1.8em;
+    color: #666;
+}
+
+.first_section{
+    background-image: url(IMG/4k-ultra-hd-landscape-wallpaper-7qu919fyt66mkg39.jpg);
+    min-height: 100%;
+}
+
+
+.secound_section{
+    background-image: url(IMG/4k-ultra-hd-landscape-wallpaper-zukle3go66ot7czv.jpg);
+    min-height: 100%;
+}
+
+.third_section{
+    background-image: url(IMG/thrilling-forest-cliffs-xbcntbnvkg6ain7t.jpg);
+    min-height: 100%;
+}
+
+.first_section, 
+.secound_section, 
+.third_section{
+
+    position: relative;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+
+}
+
+.text{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text_bg{
+    background-color: #313534;
+    color: white;
+    padding: 50px;
+}
+
+.head1{
+    background-color: white;
+    color: black;
+    padding: 50px 80px;
+    text-align: center;
+}
+.text1{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: black;
+    font-size: 27px;
+    letter-spacing: 8px;
+    text-transform: uppercase;
+}
+
+.text_bg1{
+    background-color: #313534;
+    color: white;
+    padding: 50px;
+}
+
+.head2{
+    background-color: #313534;
+    color: aliceblue;
+    padding: 50px 80px;
+    text-align: center;
+
+}
